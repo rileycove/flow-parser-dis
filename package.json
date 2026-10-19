@@ -1,0 +1,18 @@
+{
+  "name": "flow-parser-dis",
+  "version": "1.0.0",
+  "description": "REST service by @rileycove",
+  "main": "src/index.js",
+  "type": "module",
+  "author": "rileycove",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5"
+  }
+}
